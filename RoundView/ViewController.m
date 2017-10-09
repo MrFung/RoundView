@@ -7,6 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ViewController+Configration.h"
+#import "RoundViewCell.h"
+
+static NSString *const MainStoryboardName = @"Main";
+static NSString *const RoundViewControllerIdentifier = @"ViewController";
 
 @interface ViewController ()
 
@@ -14,16 +19,42 @@
 
 @implementation ViewController
 
++ (instancetype)create {
+  UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:MainStoryboardName bundle:nil];
+  ViewController *viewController = [mainStoryboard instantiateViewControllerWithIdentifier:RoundViewControllerIdentifier];
+  
+  return viewController;
+}
+
+#pragma mark - ViewController LifeCycle
+
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
+  [self configureView];
 }
 
-
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated {
+  [super viewDidAppear:animated];
 }
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+  return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+  RoundViewCell *roundView = [tableView dequeueReusableCellWithIdentifier:RoundViewCellReuseId forIndexPath:indexPath];
+  
+  return roundView;
+}
+
+#pragma mark - UITableViewDelegate
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+  return 500;
+}
+
 
 
 @end

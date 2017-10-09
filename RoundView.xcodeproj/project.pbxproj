@@ -15,6 +15,11 @@
 		E5A0F47C1F57AF240061BEE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5A0F47A1F57AF240061BEE6 /* LaunchScreen.storyboard */; };
 		E5A0F4871F57AF250061BEE6 /* RoundViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F4861F57AF250061BEE6 /* RoundViewTests.m */; };
 		E5A0F4921F57AF250061BEE6 /* RoundViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F4911F57AF250061BEE6 /* RoundViewUITests.m */; };
+		E5A0F4A11F57AF5E0061BEE6 /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F4A01F57AF5E0061BEE6 /* RoundView.m */; };
+		E5A0F4A41F57AF740061BEE6 /* RoundView+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F4A31F57AF740061BEE6 /* RoundView+Configuration.m */; };
+		E5A0F4AA1F57F5730061BEE6 /* RoundViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F4A81F57F5730061BEE6 /* RoundViewCell.m */; };
+		E5A0F4AB1F57F5730061BEE6 /* RoundViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5A0F4A91F57F5730061BEE6 /* RoundViewCell.xib */; };
+		E5A0F4AE1F57FA560061BEE6 /* ViewController+Configration.m in Sources */ = {isa = PBXBuildFile; fileRef = E5A0F4AD1F57FA560061BEE6 /* ViewController+Configration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,15 @@
 		E5A0F48D1F57AF250061BEE6 /* RoundViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A0F4911F57AF250061BEE6 /* RoundViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundViewUITests.m; sourceTree = "<group>"; };
 		E5A0F4931F57AF250061BEE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A0F49F1F57AF5E0061BEE6 /* RoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView.h; sourceTree = "<group>"; };
+		E5A0F4A01F57AF5E0061BEE6 /* RoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView.m; sourceTree = "<group>"; };
+		E5A0F4A21F57AF740061BEE6 /* RoundView+Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RoundView+Configuration.h"; sourceTree = "<group>"; };
+		E5A0F4A31F57AF740061BEE6 /* RoundView+Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RoundView+Configuration.m"; sourceTree = "<group>"; };
+		E5A0F4A71F57F5730061BEE6 /* RoundViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundViewCell.h; sourceTree = "<group>"; };
+		E5A0F4A81F57F5730061BEE6 /* RoundViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundViewCell.m; sourceTree = "<group>"; };
+		E5A0F4A91F57F5730061BEE6 /* RoundViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoundViewCell.xib; sourceTree = "<group>"; };
+		E5A0F4AC1F57FA560061BEE6 /* ViewController+Configration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+Configration.h"; sourceTree = "<group>"; };
+		E5A0F4AD1F57FA560061BEE6 /* ViewController+Configration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Configration.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +119,15 @@
 				E5A0F4701F57AF240061BEE6 /* AppDelegate.m */,
 				E5A0F4721F57AF240061BEE6 /* ViewController.h */,
 				E5A0F4731F57AF240061BEE6 /* ViewController.m */,
+				E5A0F4AC1F57FA560061BEE6 /* ViewController+Configration.h */,
+				E5A0F4AD1F57FA560061BEE6 /* ViewController+Configration.m */,
+				E5A0F49F1F57AF5E0061BEE6 /* RoundView.h */,
+				E5A0F4A01F57AF5E0061BEE6 /* RoundView.m */,
+				E5A0F4A21F57AF740061BEE6 /* RoundView+Configuration.h */,
+				E5A0F4A31F57AF740061BEE6 /* RoundView+Configuration.m */,
+				E5A0F4A71F57F5730061BEE6 /* RoundViewCell.h */,
+				E5A0F4A81F57F5730061BEE6 /* RoundViewCell.m */,
+				E5A0F4A91F57F5730061BEE6 /* RoundViewCell.xib */,
 				E5A0F4751F57AF240061BEE6 /* Main.storyboard */,
 				E5A0F4781F57AF240061BEE6 /* Assets.xcassets */,
 				E5A0F47A1F57AF240061BEE6 /* LaunchScreen.storyboard */,
@@ -250,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A0F47C1F57AF240061BEE6 /* LaunchScreen.storyboard in Resources */,
+				E5A0F4AB1F57F5730061BEE6 /* RoundViewCell.xib in Resources */,
 				E5A0F4791F57AF240061BEE6 /* Assets.xcassets in Resources */,
 				E5A0F4771F57AF240061BEE6 /* Main.storyboard in Resources */,
 			);
@@ -276,9 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A0F4AE1F57FA560061BEE6 /* ViewController+Configration.m in Sources */,
 				E5A0F4741F57AF240061BEE6 /* ViewController.m in Sources */,
+				E5A0F4AA1F57F5730061BEE6 /* RoundViewCell.m in Sources */,
+				E5A0F4A11F57AF5E0061BEE6 /* RoundView.m in Sources */,
 				E5A0F4711F57AF240061BEE6 /* AppDelegate.m in Sources */,
 				E5A0F46E1F57AF240061BEE6 /* main.m in Sources */,
+				E5A0F4A41F57AF740061BEE6 /* RoundView+Configuration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FRW338XD92;
 				INFOPLIST_FILE = RoundView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrFung.RoundView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FRW338XD92;
 				INFOPLIST_FILE = RoundView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MrFung.RoundView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +548,7 @@
 				E5A0F4981F57AF250061BEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5A0F4991F57AF250061BEE6 /* Build configuration list for PBXNativeTarget "RoundViewTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +557,7 @@
 				E5A0F49B1F57AF250061BEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5A0F49C1F57AF250061BEE6 /* Build configuration list for PBXNativeTarget "RoundViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +566,7 @@
 				E5A0F49E1F57AF250061BEE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

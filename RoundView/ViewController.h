@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RoundView.h"
 
-@interface ViewController : UIViewController
+static NSString *const RoundViewCellReuseId = @"RoundViewCellReuseId";
 
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
